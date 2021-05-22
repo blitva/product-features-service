@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
-const ProductFeatures = require('../database/database.js');
-const { fakeDataGenerator } = require('../database/seed-data/fakeDataGenerator.js');
+const ProductFeatures = require('../../database/database.js');
+const { fakeDataGenerator } = require('../../database/seed-data/fakeDataGenerator.js');
 const assert = require('assert');
 
 describe('Database seeding', () => {
