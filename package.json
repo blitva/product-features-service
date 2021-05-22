@@ -12,7 +12,8 @@
     "node": ">=6.13.0"
   },
   "scripts": {
-    "back-end-tests": "mocha tests/back-end --no-deprecation",
+    "db-tests": "mocha tests/back-end/database-test.js --no-deprecation",
+    "server-tests": "mocha tests/back-end/server-test.js --no-deprecation",
     "front-end-tests": "jest -u",
     "seeder": "node database/seed-data/seeder.js",
     "react-dev": "webpack --mode=development --watch",
