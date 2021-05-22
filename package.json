@@ -1,7 +1,7 @@
 {
-  "name": "blitva-product-features",
+  "name": "blitvazon-product-features",
   "version": "",
-  "description": "Product features service for the Front End Capstone project. Amazon.com item detail page. Team Blitva.",
+  "description": "Product features microservice for Amazon.com-like item detail page.",
   "author": "",
   "license": "MIT license",
   "repository": {
@@ -12,8 +12,8 @@
     "node": ">=6.13.0"
   },
   "scripts": {
-    "mocha-tests": "./node_modules/mocha/bin/mocha --timeout 5000 --no-deprecation",
-    "test": "jest -u",
+    "back-end-tests": "mocha tests/back-end --no-deprecation",
+    "front-end-tests": "jest -u",
     "seeder": "node database/seed-data/seeder.js",
     "react-dev": "webpack --mode=development --watch",
     "start-dev": "nodemon server/server.js",
