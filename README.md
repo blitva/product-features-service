@@ -48,3 +48,8 @@ npm db-tests
 npm server-tests
 npm front-end-tests
 ```
+
+Open the browser
+```
+http://localhost:4000
+```
